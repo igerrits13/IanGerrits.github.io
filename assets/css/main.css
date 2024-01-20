@@ -2255,7 +2255,7 @@ body.landing.is-preload:after {
   height: 100vh;
   background: #ffffff;
   display: flex;
-  align-items: first baseline;
+  align-items: center;
   justify-content: center;
 }
 
@@ -2272,7 +2272,7 @@ body.landing.is-preload:after {
 /* Swiper */
 .swiper {
   width: 100%;
-  height: fit-content; /* Edit here to make images smaller */
+  height: fit-content;
 }
 
 .swiper-slide img {
@@ -2313,6 +2313,11 @@ body.landing.is-preload:after {
 
 .text .icon {
   font-size: xx-large;
+}
+
+.text .tooltiptext {
+  font-size: medium;
+  font-weight: 300;
 }
 
 /* Section/Article */
@@ -3750,7 +3755,7 @@ body.landing .dropotron.level-0 {
 
 #header nav ul li.active > a,
 #header nav ul li.active > span {
-  color: #ffffff;
+  color: #000000;
 }
 
 #header nav ul li > ul {
