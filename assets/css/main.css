@@ -1063,6 +1063,10 @@ body.landing.is-preload:after {
     padding-left: 150px;
     padding-right: 150px;
   }
+
+  .centered {
+    font-size: 0.8em;
+  }
 }
 
 /* 1681 min */
@@ -1338,6 +1342,10 @@ body.landing.is-preload:after {
   .row {
     padding-left: 100px;
     padding-right: 100px;
+  }
+
+  .centered {
+    font-size: 0.8em;
   }
 }
 
@@ -1615,6 +1623,10 @@ body.landing.is-preload:after {
     padding-left: 50px;
     padding-right: 50px;
   }
+
+  .centered {
+    font-size: 0.8em;
+  }
 }
 
 /* 1280 */
@@ -1890,6 +1902,10 @@ body.landing.is-preload:after {
   .row {
     padding-left: 25px;
     padding-right: 25px;
+  }
+
+  .centered {
+    font-size: 0.6em;
   }
 }
 
@@ -2167,6 +2183,10 @@ body.landing.is-preload:after {
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .centered {
+    font-size: 0.4em;
+  }
 }
 
 /* 736 */
@@ -2442,6 +2462,10 @@ body.landing.is-preload:after {
   .row {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .centered {
+    font-size: 0.6em;
   }
 }
 
@@ -3003,7 +3027,6 @@ input[type="radio"] + label:before {
 .centered {
   color: #ffffff;
   display: inline-block;
-  font-size: 0.8em;
   font-weight: 400;
   position: absolute;
   text-align: center;
