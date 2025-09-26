@@ -6,10 +6,28 @@
 
 /* Loader */
 
-	body.landing.is-preload:before {
-		display: none;
-	}
+body.landing.is-preload:before {
+  display: none;
+}
 
-	body.landing.is-preload:after {
-		display: none;
-	}
+body.landing.is-preload:after {
+  display: none;
+}
+
+.project-header-box {
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  background-color: black;
+  /* justify-self: center; */
+  /* justify-content: center; */
+  /* display: flexbox; */
+  border: 1px, solid, red;
+  color: purple;
+}
+
+.project-header-about {
+  justify-content: center;
+}
+
+.project-header-info {
+  justify-content: center;
+}
